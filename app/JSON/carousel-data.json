@@ -1,0 +1,39 @@
+[
+    {
+        "image": "images/item-1.png",
+        "heading": "Products",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+   },
+    {
+        "image": "images/item-2.png",
+        "heading": "Contact Us",
+        "careersImage": "images/item-4.png",
+        "text": "Morbi tincidunt commodo scelerisque."
+   },
+    {
+        "image": "images/item-3.png",
+        "heading": "About Us",
+        "text": "Duis porttitor diam vitae leo elementum accumsan."
+   },
+    {
+        "heading": "Sapient",
+        "roles": [
+            {
+                "id": 1,
+                "text": "Sapient Nitro"
+         },
+            {
+                "id": 2,
+                "text": "Sapient Global Market"
+         },
+            {
+                "id": 3,
+                "text": "Sapient Governament Service"
+         },
+            {
+                "id": 4,
+                "text": "Sapient (m)PHASIZE"
+         }
+      ]
+   }
+]

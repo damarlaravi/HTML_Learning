@@ -1,0 +1,21 @@
+<div>
+    <h1>{{headerText}}</h1>
+    <hr class="hline">
+
+    <div class="row">
+        <div class="col-md-3">
+            <img ng-src="{{imageUrl}}" />
+        </div>
+        <div class="col-md-9 formDiv">
+            <div class="row content-padding">Sapient Global Markets is the only provider in the world to offer integrated advisory, program management, analytics, technology and operations services exclusively to capital and commodity market participants and regulators. We leverage our unique perspective, full capabilities, global reach and disciplined execution to help you compete, evolve and grow in these dynamic markets. Industry Savvy We are singularly focused on the capital and commodity markets. To every engagement we bring an innate understanding of the key stakeholders, their operating models and roles within the greater ecosystem. We recognize the challenges faced by all market participants and regulators—and the inter-dependencies that must be considered when addressing them. Aligned to Client Needs We directly align our service offerings to your needs. This allows us to create centers of excellence that you can leverage to transform and enable your business. Combined with our domain expertise, we are able to be true advisors to your business and address your organization’s most pressing issues. Global Reach Our global distributed delivery model ensures quality and provides consistency and efficiencies across all regions. It allows us to deliver resources in dozens of countries and leverage time zones for round-the-clock project support. Complete Capabilities Our capabilities are comprehensive across all asset classes. Our five service lines—Advisory, Program Management, Analytics, Technology and Operations—address the full engagement, from concept to support.</div>
+            <div class="row">
+                <div class="col-md-8 ">
+                    <div ui-view="columnTwo"></div>
+                </div>
+                <div class="col-md-4">
+                    <div ui-view="columnOne"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

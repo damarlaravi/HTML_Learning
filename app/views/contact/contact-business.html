@@ -1,0 +1,14 @@
+<div class="business-unit">
+    <h3>Business Unit</h3>
+    <!--<label ng-repeat="role in roles">
+        <input type="checkbox" checklist-model="role" checklist-value="role.id"> {{role.text}}
+    </label>-->
+    <div class="form-business-container">
+        <input id="mainRole" type="checkbox" ng-checked="mainRole.checked" ng-click="mainRoleChecked()"> Sapient
+        <ul>
+            <li ng-repeat="item in roles">
+                <input type="checkbox" ng-checked="item.checked"> {{item.text}}
+            </li>
+        </ul>
+    </div>
+</div>
